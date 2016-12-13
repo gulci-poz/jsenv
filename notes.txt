@@ -8,3 +8,5 @@ ręcznie, npm install, production build, pull request, npm start
 
 npm install -g nsp
 nsp check
+
+node buildScripts/srcServer.js
