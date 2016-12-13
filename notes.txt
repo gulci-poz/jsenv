@@ -10,3 +10,22 @@ npm install -g nsp
 nsp check
 
 node buildScripts/srcServer.js
+
+npm install -g localtunnel
+node buildScripts.srcServer.js
+lt --port 3000
+lt --port 3000 --subdomain gulci
+
+jeśli mamy skrypt startowy w package.json
+npm start
+
+nie musimy dodawać run w przypadku npm start lub npm test
+
+uruchamianie innych skryptów
+npm run <skrypt>
+
+w skryptach npm nie potrzebujemy instalować globalnie narzędzi z npm
+node_modules/.bin jest automatycznie dodany do path
+
+npm silent start
+npm start -s
