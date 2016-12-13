@@ -1,0 +1,10 @@
+aktualna lista do package.json:
+bit.ly/jsdevpackagejson
+
+Node Security Platform
+sprawdzanie zależności pod kątem znanych zagrożeń
+można je przeprowadzić w różnych momentach:
+ręcznie, npm install, production build, pull request, npm start
+
+npm install -g nsp
+nsp check
